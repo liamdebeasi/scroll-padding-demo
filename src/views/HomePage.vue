@@ -19,10 +19,6 @@
             <ion-label>Input {{item}}</ion-label>
             <ion-input></ion-input>
           </ion-item>
-          <ion-item>
-            <ion-label>Textarea {{item}}</ion-label>
-            <ion-textarea></ion-textarea>
-          </ion-item>
         </div>
       </ion-list>
     </ion-content>
@@ -30,7 +26,7 @@
 </template>
 
 <script lang="ts">
-import { IonList, IonItem, IonInput, IonLabel, IonTextarea, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import { IonList, IonItem, IonInput, IonLabel, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
@@ -42,7 +38,9 @@ export default defineComponent({
     IonTitle,
     IonToolbar,
     IonList,
-    IonItem, IonInput, IonLabel, IonTextarea
+    IonItem, 
+    IonInput, 
+    IonLabel
   }
 });
 </script>
