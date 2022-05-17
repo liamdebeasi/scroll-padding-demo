@@ -4,7 +4,12 @@ const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'scroll-padding',
   webDir: 'dist',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+  plugins: {
+    Keyboard: {
+      resize: 'none'
+    }
+  }
 };
 
 export default config;
