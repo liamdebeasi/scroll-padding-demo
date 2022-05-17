@@ -1,0 +1,7 @@
+{
+  "name": "scroll-padding",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
